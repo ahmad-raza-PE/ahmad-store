@@ -1,0 +1,14 @@
+{
+  "name": "digital-products-store",
+  "version": "1.0.0",
+  "description": "Digital downloads marketplace: Stripe card payments, bank transfer, protected downloads, admin dashboard.",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "test": "node --disable-warning=ExperimentalWarning tests/e2e.js",
+    "test:ui": "node --disable-warning=ExperimentalWarning tests/ui.js",
+    "backup": "node --disable-warning=ExperimentalWarning scripts/backup.js"
+  }
+}
